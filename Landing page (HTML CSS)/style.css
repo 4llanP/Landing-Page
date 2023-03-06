@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #10141d 16.62%, #203345 85.61%);
+  background: linear-gradient(68.15deg, #4560a0 16.62%, #386ea1 85.61%);
 }
 
 .cabecalho {
@@ -18,4 +18,107 @@ body {
   align-items: center;
   justify-content: space-around;
   padding: 24px;
+}
+
+.cabecalho-img{
+  height: 72px;
+}
+
+.cabecalho-menu{
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-item{
+  font-family: 'sarala',sans-serif;
+  color: #fff2ef
+}
+
+.conteudo{
+  margin-bottom: 48px;
+  border-top: 0.4px solid #fff2ef;
+}
+
+.conteudo-principal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-texto{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.conteudo-texto-titulo{
+  font-family: 'righteous', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color:#fff2ef ;
+}
+.conteudo-texto-subtitulo{
+  font-family: 'sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color:#fff2ef ;
+}
+
+.conteudo-texto-botao{
+  background-color:#5c7bc3;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+  border-radius: 20px;
+  font-family: 'sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff2ef;
+}
+
+.conteudo-botoes{
+  display: flex;
+  gap: 14px;
+}
+
+.conteudo-texto-botao:hover{
+  background-color: rgba( 100, 150, 250, 0.70);
+}
+
+.conteudo-principal-escrito{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.conteudo-principal-escrito-titulo{
+  border-top: 00.4px solid #fff2ef;
+  padding-top: 48px;
+  font-family: 'righteous', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff2ef;
+  margin-bottom: 16px;
+}
+
+.conteudo-principal-escrito-texto{
+  font-family: 'sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff2ef;
+}
+
+.rodape{
+  padding: 32px;
+  border-top: 00.4px solid #fff2ef;
+}
+
+.rodape-img{
+  height: 72px;
+  display: block;
+  margin: 0 auto;
 }
