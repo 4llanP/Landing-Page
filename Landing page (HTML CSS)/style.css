@@ -41,6 +41,8 @@ body {
 }
 
 .conteudo{
+  margin: 0 auto;
+  padding: 20px;
   margin-bottom: 48px;
   border-top: 0.4px solid #ffd5a3;
 }
